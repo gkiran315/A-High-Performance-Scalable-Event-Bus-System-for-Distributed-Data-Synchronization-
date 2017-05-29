@@ -1,0 +1,12 @@
+{
+   "namespace": "com.Avro",
+   "type": "record",
+   "name": "msgfmt",
+   "fields": [
+      {"name": "Topic", "type": { "type": "string","avro.java.stringImpl":"String"} },
+      {"name": "Type", "type": ["int"]},
+      {"name": "Message", "type": ["string"]},
+      {"name": "Time", "type": ["string"]}
+   ]
+   
+}
